@@ -1,1 +1,1 @@
-# Basic-Calculator-Using-HTML-CSS-JAVASCRI-T
+# Basic-Calculator-Using-HTML-CSS-JAVASCRIPT
