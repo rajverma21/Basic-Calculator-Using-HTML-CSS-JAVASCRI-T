@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(25 25 25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2.5vmin;
+  width: 47vmin;
+  height: 73vmin;
+  background-color: transparent;
+  border-radius: 18px;
+  box-shadow: 0px 0px 9px rgb(138, 138, 138);
+}
+
+.btn {
+  font-size: 17px;
+  height: 8.2vmin;
+  width: 8.2vmin;
+  margin: 8.6px;
+  border-radius: 50%;
+  color: #ffffff;
+  background-color: #323232cb;
+  border: none;
+  cursor: pointer;
+}
+
+input {
+  font-family: "Inter", sans-serif;
+  height: 8.2vmin;
+  width: 41vmin;
+  border-radius: 5px;
+  background-color: transparent;
+  border: none;
+  font-size: 6vmin;
+  color: #ffffff;
+  text-align: right;
+}
+
+#Calculation {
+  margin: 3.6vmin;
+}
+
+input::placeholder {
+  color: white;
+}
+
+.optr {
+  background-color: rgb(71, 71, 71);
+}
+
+#equal {
+  background-color: rgb(229, 116, 10);
+}
